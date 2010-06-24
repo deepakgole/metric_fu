@@ -23,7 +23,7 @@ module MetricFu
       puts "Generating graphs"
       Dir[File.join(MetricFu.data_directory, '*.yml')].sort.each do |metric_file|
         puts "Generating graphs for #{metric_file}"
-        date = metric_file.split('/')[3].split('.')[0]
+        date = metric_file.split('/').last.split('.')[0]
         y, m, d = date[0..3].to_i, date[4..5].to_i, date[6..7].to_i
         metrics = YAML::load(File.open(metric_file))
         
