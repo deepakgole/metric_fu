@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.name        = "metric_fu"
+  s.name        = "deepakgole-metric_fu"
   s.version     = "1.4.0"
-  s.summary     = "A fistful of code metrics, with awesome templates and graphs"
-  s.email       = "jake.scruggs@gmail.com"
+  s.summary     = "Made change in the graph.rb file to work with report_card"
+  s.email       = "deepak.gole8@gmail.com"
   s.homepage    = "http://metric-fu.rubyforge.org/"
   s.description = "Code metrics from Flog, Flay, RCov, Saikuro, Churn, Reek, Roodi, Rails' stats task and Rails Best Practices"
   s.authors     = ["Jake Scruggs", "Sean Soper", "Andre Arko", "Petrik de Heus", "Grant McInnes", "Nick Quaranto", "Édouard Brière", "Carl Youngblood", "Richard Huang", "Dan Mayer"]
