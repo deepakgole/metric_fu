@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.name        = "deepakgole-metric_fu"
+  s.name        = "metric_fu-deepak"
   s.version     = "1.4.0"
   s.summary     = "Made change in the graph.rb file to work with report_card"
   s.email       = "deepak.gole8@gmail.com"
